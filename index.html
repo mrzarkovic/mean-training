@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My Angular App!</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <style> .glyphicon-thumbs-up { cursor:pointer } </style>
+    </head>
+    <body ng-app="flapperNews" ng-controller="MainCtrl">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <ui-view></ui-view>
+                </div>
+            </div>
+        </div>
+        <script src="js/angular.min.js"></script>
+        <script src="js/angular-ui-router.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
